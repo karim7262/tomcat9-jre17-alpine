@@ -26,13 +26,13 @@ make push
 ## Running
 
 ````bash
-docker pull ghcr.io/nirmata/tomcat9-alpine-jre12-openjdk
+docker run ghcr.io/nirmata/tomcat9-zulu-openjdk-alpine:17.30.15-jre
 ````
 
 ## Extending
 
 ````dockerfile
-FROM nirmata/tomcat9-alpine-jre12-openjdk
+FROM ghcr.io/nirmata/tomcat9-zulu-openjdk-alpine:17.30.15-jre
 
    ...
 
