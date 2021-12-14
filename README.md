@@ -1,8 +1,8 @@
-# tomcat9-alpine-jre12-openjdk
+# tomcat9-jre17-alpine
 
 Dockerfile for creating an docker image with:
   * [Tomcat 9.0.56](https://tomcat.apache.org/tomcat-9.0-doc/changelog.html#Tomcat_9.0.56_(remm))
-  * [Azul Zulu Alpine OpenJDK JRE 17.0.0](https://github.com/zulu-openjdk/zulu-openjdk/blob/master/alpine/17.0.1-17.30.15-jre/17.30.15.md)
+  * [Azul Zulu OpenJDK JRE 17.0.0 Alpine](https://github.com/zulu-openjdk/zulu-openjdk/blob/master/alpine/17.0.1-17.30.15-jre/17.30.15.md)
 
 ## License
 
