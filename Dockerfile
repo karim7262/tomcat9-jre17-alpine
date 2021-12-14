@@ -4,6 +4,7 @@ ENV TOMCAT_MAJOR=9 \
     TOMCAT_VERSION=9.0.56
 
 RUN apk -U upgrade --update && \
+    apk add --upgrade tomcat-native && \
     wget -O /tmp/apache-tomcat.tar.gz https://archive.apache.org/dist/tomcat/tomcat-${TOMCAT_MAJOR}/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz && \
     tar -C /opt -xvf /tmp/apache-tomcat.tar.gz && \
     ln -s /opt/apache-tomcat-${TOMCAT_VERSION}/ /usr/local/tomcat && \
